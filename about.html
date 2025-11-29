@@ -1,0 +1,195 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>About Me</title>
+
+    <style type="text/css">
+        body {
+            background-color: #ffd0e1; /* pink background */
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* MAROON BOX (SECOND LAYER) */
+        #container {
+            width: 85%;
+            margin: auto;
+            background: #7a0034; /* maroon */
+            margin-top: 30px;
+            padding: 30px;
+            border-radius: 20px;
+            border: 4px solid #ff9ec9; /* cute pink border */
+            box-shadow: 0 0 25px #ffb6d3;
+        }
+
+        /* INNER WHITE BOX (CONTENT BOX) */
+        .inner-box {
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 18px;
+            box-shadow: 0 0 20px #ffcde2;
+        }
+
+        h1 {
+            text-align: center;
+            color: #ff4f85;
+            font-size: 30px;
+        }
+
+        .section-title {
+            font-size: 22px;
+            font-weight: bold;
+            color: #ff4f85;
+            margin-top: 25px;
+            text-align: center;
+        }
+
+        /* GROWING HEART BULLETS */
+        @keyframes growHeart {
+            0% { transform: scale(0.5); opacity: 0.2; }
+            50% { transform: scale(1.4); opacity: 1; }
+            100% { transform: scale(1); opacity: 1; }
+        }
+
+        ul.heart-list {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        ul.heart-list li {
+            margin-bottom: 12px;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        ul.heart-list li::before {
+            content: "❤";
+            color: #ff6fa5;
+            margin-right: 10px;
+            font-size: 20px;
+            vertical-align: middle;
+            animation: growHeart 0.5s ease;
+            display: inline-block;
+        }
+
+        /* CUTE SHAPES */
+        .bubble {
+            background: #ffe6ef;
+            padding: 20px;
+            border-radius: 50px;
+            border: 2px dashed #ff8fb3;
+            margin-top: 15px;
+            box-shadow: 0 0 15px #ffd3e5;
+        }
+
+        .heart-box {
+            background: #fff0f6;
+            padding: 20px;
+            border: 2px solid #ffa2c3;
+            border-radius: 20px;
+            margin-top: 15px;
+            box-shadow: 0 0 15px #ffd6e8;
+        }
+
+        .cloud {
+            background: #ffeef5;
+            padding: 25px;
+            border-radius: 60px;
+            border: 3px dotted #ff94bf;
+            margin-top: 15px;
+            box-shadow: 0 0 18px #ffcade;
+        }
+
+        .icon {
+            font-size: 26px;
+            vertical-align: middle;
+            margin-right: 6px;
+        }
+
+        a {
+            display: inline-block;
+            background-color: #ff6f9c;
+            color: #ffffff;
+            padding: 10px 18px;
+            text-decoration: none;
+            margin-top: 30px;
+            border-radius: 10px;
+            font-weight: bold;
+        }
+
+        a:hover {
+            background-color: #ff4f85;
+        }
+    </style>
+</head>
+
+<body>
+
+<div id="container">
+
+    <!-- INNER WHITE BOX -->
+    <div class="inner-box">
+
+        <h1>About Me</h1>
+
+        <!-- INTRO -->
+        <div class="section-title">
+            <span class="icon">🎀</span> Introduction
+        </div>
+        <div class="bubble">
+            <ul class="heart-list">
+                <li>Siti Nur Azfahazwani Binti Mukri</li>
+                <li>Hello and welcome to my website. I'm Wanie!</li>
+                <li>I’m shy in crowds but talkative when I'm comfortable 💗</li>
+            </ul>
+        </div>
+
+        <!-- BACKGROUND -->
+        <div class="section-title">
+            <span class="icon">🌸</span> Background
+        </div>
+        <div class="heart-box">
+            <ul class="heart-list">
+                <li>I'm from FELDA, Johor.</li>
+                <li>The youngest out of six siblings.</li>
+                <li>I grew up very independent and calm.</li>
+            </ul>
+        </div>
+
+        <!-- HOBBIES -->
+        <div class="section-title">
+            <span class="icon">💗</span> Hobbies & Interests
+        </div>
+        <div class="cloud">
+            <ul class="heart-list">
+                <li>I love movies, especially thriller & action.</li>
+                <li>I listen to any music that feels right.</li>
+                <li>I enjoy fantasy and thriller books.</li>
+            </ul>
+        </div>
+
+        <!-- GOALS -->
+        <div class="section-title">
+            <span class="icon">🌟</span> Future Goals
+        </div>
+        <div class="bubble">
+            <ul class="heart-list">
+                <li>I want to be a successful & independent woman.</li>
+                <li>I want my own brand one day.</li>
+                <li>My parents inspire me every day.</li>
+            </ul>
+        </div>
+
+        <center>
+            <a href="index.html">Back to Home</a>
+        </center>
+
+    </div>
+</div>
+
+</body>
+</html>
